@@ -8,7 +8,7 @@ void runReportCard() {
     double? mark = _readDouble();
     if (mark == null || mark < 0 || mark > 100) {
       print('Invalid mark. Please enter a value between 0 and 100.');
-      i--;  // Repeat this iteration
+      i--;  
       continue;
     }
     marks.add(mark);
